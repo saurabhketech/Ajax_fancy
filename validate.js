@@ -15,16 +15,15 @@ var x = document.forms["form"]["email"].value;
 var atpos = x.indexOf("@");
 var dotpos = x.lastIndexOf(".");
 if(name_len < 1) {
-
-alert("PLEASE ENTER NAME");
+alert("Enter name");
 event.preventDefault();
 }
 else if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
-alert("PLEASE VALID ENTER EMAIL-ID");
+alert("Enter email");
 event.preventDefault();
 }
 else if(message_len < 1) {
-alert("PLEASE ENTER MESSAGE YOU WANT");
+alert("Enter some message");
 event.preventDefault();
 }
 else {

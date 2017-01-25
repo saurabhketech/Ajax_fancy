@@ -39,7 +39,7 @@
 
             function table(total_rows) {
             var data1 = ""                
-             data1+= "<table  class='table table-bordered table-striped' >"; 
+             data1+= "<table  class='table'>"; 
                data1+=  "<tr>" +
                         "<th>ID</th>" +
                         "<th>Name</th>" +
